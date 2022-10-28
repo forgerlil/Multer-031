@@ -70,7 +70,7 @@ Level 2:
 
 Level 3:
 
-[] .Create a table pictures in a database with the following columns: pic_id, name (original filename), path (where the picture is stored)
-[] .When the user uploads a single picture, or multiple pictures, it should get stored in the database
-[] .Insert a link into your HTML that will point to /get-pics & create GET a route handler for /get-pics
-[] .This route handler should get all the pictures previously uploaded in the database and return them as a list of links to the user. The user should be able to click on a link, and view the picture
+[x] .Create a table pictures in a database with the following columns: pic_id, name (original filename), path (where the picture is stored)
+[x] .When the user uploads a single picture, or multiple pictures, it should get stored in the database
+[x] .Insert a link into your HTML that will point to /get-pics & create GET a route handler for /get-pics
+[x] .This route handler should get all the pictures previously uploaded in the database and return them as a list of links to the user. The user should be able to click on a link, and view the picture
