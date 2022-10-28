@@ -6,21 +6,21 @@ You want to allow your users to upload a profile picture. For that, you already 
 
 <!DOCTYPE html>
 <html>
- <head>
-   <meta charset="UTF-8">
-   <title>File Upload Exercise</title>
- </head>
- <body>
-   <form method="POST" action="/upload-profile-pic" enctype="multipart/form-data">
-       <div>
-           <label>Select your profile picture:</label>
-           <input type="file" name="profile_pic" />
-       </div>
-       <div>
-           <input type="submit" value="Upload" />
-       </div>
-   </form>
- </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>File Upload Exercise</title>
+  </head>
+  <body>
+    <form method="POST" action="/upload-profile-pic" enctype="multipart/form-data">
+      <div>
+        <label>Select your profile picture:</label>
+        <input type="file" name="profile_pic" />
+      </div>
+      <div>
+        <input type="submit" value="Upload" />
+      </div>
+    </form>
+  </body>
 </html>
 
 Your Mission
@@ -57,11 +57,11 @@ Level 2:
   <br />
   <form method="POST" action="/upload-cat-pics" enctype="multipart/form-data">
     <div>
-        <label>Select your cat pictures:</label>
-        <input type="file" name="cat_pics" multiple />
+      <label>Select your cat pictures:</label>
+      <input type="file" name="cat_pics" multiple />
     </div>
     <div>
-        <input type="submit" value="Upload Cat Pics" />
+      <input type="submit" value="Upload Cat Pics" />
     </div>
 </form>
 
